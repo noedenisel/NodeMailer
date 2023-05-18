@@ -1,0 +1,19 @@
+{
+  "name": "nodemailer---ejs",
+  "version": "1.0.0",
+  "description": "En este challenge deberás crear una aplicación web utilizando: \r 1. Node.js \r 2. Express \r 3. Nodemailer que permita enviar correos electrónicos con diferentes respuestas, según el resultado de una acción. \r 4. Implementar un motor de plantillas EJS con Node.js, creando 4 modelos de plantillas EJS, cada una con una respuesta diferente: \r     - Dar la bienvenida y registrar exitosamente a un usuario.\r     - Indicar que no se pudo registrar exitosamente al usuario.\r     - Indicar que el pago se encuentra pendiente.\r     - Indicar que el pago ha sido registrado exitosamente.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.22"
+  }
+}
